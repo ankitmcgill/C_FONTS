@@ -1,8 +1,14 @@
 #ifndef FONT_MONKEY_11PT_
 #define FONT_MONKEY_11PT_
 
-#include <stdint.h>
 #include "FONT_INFO.h"
+#if defined(ESP8266)
+	#include "user_interface.h"
+	#include <ets_sys.h>
+	#include <osapi.h>
+#else
+	#include <stdint.h>
+#endif
 
 /* Font data for Monkey 11pt */
 extern const uint8_t monkey_11ptBitmaps[];

@@ -1,13 +1,13 @@
 #include "FONT_menlo_10pt.h"
 
-/* 
-**  Font data for Menlo 10pt
-*/
+// 
+//  Font data for Menlo 10pt
+// 
 
-/* Character bitmaps for Menlo 10pt */
+// Character bitmaps for Menlo 10pt
 const uint8_t menlo_10ptBitmaps[] = 
 {
-	/* @0 ' ' (9 pixels wide) */
+	// @0 ' ' (9 pixels wide)
 	0x00, 0x00, //          
 	0x00, 0x00, //          
 	0x00, 0x00, //          
@@ -23,7 +23,7 @@ const uint8_t menlo_10ptBitmaps[] =
 	0x00, 0x00, //          
 	0x00, 0x00, //          
 
-	/* @28 '!' (9 pixels wide) */
+	// @28 '!' (9 pixels wide)
 	0x00, 0x00, //          
 	0x00, 0x00, //          
 	0x10, 0x00, //    #     
@@ -39,7 +39,7 @@ const uint8_t menlo_10ptBitmaps[] =
 	0x00, 0x00, //          
 	0x00, 0x00, //          
 
-	/* @56 '"' (9 pixels wide) */
+	// @56 '"' (9 pixels wide)
 	0x00, 0x00, //          
 	0x44, 0x00, //  #   #   
 	0x44, 0x00, //  #   #   
@@ -55,7 +55,7 @@ const uint8_t menlo_10ptBitmaps[] =
 	0x00, 0x00, //          
 	0x00, 0x00, //          
 
-	/* @84 '#' (9 pixels wide) */
+	// @84 '#' (9 pixels wide)
 	0x00, 0x00, //          
 	0x00, 0x00, //          
 	0x12, 0x00, //    #  #  
@@ -71,7 +71,7 @@ const uint8_t menlo_10ptBitmaps[] =
 	0x00, 0x00, //          
 	0x00, 0x00, //          
 
-	/* @112 '$' (9 pixels wide) */
+	// @112 '$' (9 pixels wide)
 	0x00, 0x00, //          
 	0x00, 0x00, //          
 	0x08, 0x00, //     #    
@@ -87,7 +87,7 @@ const uint8_t menlo_10ptBitmaps[] =
 	0x08, 0x00, //     #    
 	0x00, 0x00, //          
 
-	/* @140 '%' (9 pixels wide) */
+	// @140 '%' (9 pixels wide)
 	0x00, 0x00, //          
 	0x00, 0x00, //          
 	0x60, 0x00, //  ##      
@@ -103,7 +103,7 @@ const uint8_t menlo_10ptBitmaps[] =
 	0x00, 0x00, //          
 	0x00, 0x00, //          
 
-	/* @168 '&' (9 pixels wide) */
+	// @168 '&' (9 pixels wide)
 	0x00, 0x00, //          
 	0x00, 0x00, //          
 	0x1C, 0x00, //    ###   
@@ -119,7 +119,7 @@ const uint8_t menlo_10ptBitmaps[] =
 	0x00, 0x00, //          
 	0x00, 0x00, //          
 
-	/* @196 ''' (9 pixels wide) */
+	// @196 ''' (9 pixels wide)
 	0x00, 0x00, //          
 	0x10, 0x00, //    #     
 	0x10, 0x00, //    #     
@@ -135,7 +135,7 @@ const uint8_t menlo_10ptBitmaps[] =
 	0x00, 0x00, //          
 	0x00, 0x00, //          
 
-	/* @224 '(' (9 pixels wide) */
+	// @224 '(' (9 pixels wide)
 	0x00, 0x00, //          
 	0x08, 0x00, //     #    
 	0x08, 0x00, //     #    
@@ -151,7 +151,7 @@ const uint8_t menlo_10ptBitmaps[] =
 	0x08, 0x00, //     #    
 	0x00, 0x00, //          
 
-	/* @252 ')' (9 pixels wide) */
+	// @252 ')' (9 pixels wide)
 	0x30, 0x00, //   ##     
 	0x10, 0x00, //    #     
 	0x10, 0x00, //    #     
@@ -167,7 +167,7 @@ const uint8_t menlo_10ptBitmaps[] =
 	0x00, 0x00, //          
 	0x00, 0x00, //          
 
-	/* @280 '*' (9 pixels wide) */
+	// @280 '*' (9 pixels wide)
 	0x00, 0x00, //          
 	0x00, 0x00, //          
 	0x00, 0x00, //          
@@ -183,7 +183,7 @@ const uint8_t menlo_10ptBitmaps[] =
 	0x00, 0x00, //          
 	0x00, 0x00, //          
 
-	/* @308 '+' (9 pixels wide) */
+	// @308 '+' (9 pixels wide)
 	0x00, 0x00, //          
 	0x00, 0x00, //          
 	0x00, 0x00, //          
@@ -199,7 +199,7 @@ const uint8_t menlo_10ptBitmaps[] =
 	0x00, 0x00, //          
 	0x00, 0x00, //          
 
-	/* @336 ',' (9 pixels wide) */
+	// @336 ',' (9 pixels wide)
 	0x00, 0x00, //          
 	0x00, 0x00, //          
 	0x00, 0x00, //          
@@ -215,7 +215,7 @@ const uint8_t menlo_10ptBitmaps[] =
 	0x30, 0x00, //   ##     
 	0x00, 0x00, //          
 
-	/* @364 '-' (9 pixels wide) */
+	// @364 '-' (9 pixels wide)
 	0x00, 0x00, //          
 	0x00, 0x00, //          
 	0x00, 0x00, //          
@@ -231,7 +231,7 @@ const uint8_t menlo_10ptBitmaps[] =
 	0x00, 0x00, //          
 	0x00, 0x00, //          
 
-	/* @392 '.' (9 pixels wide) */
+	// @392 '.' (9 pixels wide)
 	0x00, 0x00, //          
 	0x00, 0x00, //          
 	0x00, 0x00, //          
@@ -247,7 +247,7 @@ const uint8_t menlo_10ptBitmaps[] =
 	0x00, 0x00, //          
 	0x00, 0x00, //          
 
-	/* @420 '/' (9 pixels wide) */
+	// @420 '/' (9 pixels wide)
 	0x00, 0x00, //          
 	0x00, 0x00, //          
 	0x02, 0x00, //       #  
@@ -263,7 +263,7 @@ const uint8_t menlo_10ptBitmaps[] =
 	0x40, 0x00, //  #       
 	0x00, 0x00, //          
 
-	/* @448 '0' (9 pixels wide) */
+	// @448 '0' (9 pixels wide)
 	0x00, 0x00, //          
 	0x3C, 0x00, //   ####   
 	0x24, 0x00, //   #  #   
@@ -279,7 +279,7 @@ const uint8_t menlo_10ptBitmaps[] =
 	0x00, 0x00, //          
 	0x00, 0x00, //          
 
-	/* @476 '1' (9 pixels wide) */
+	// @476 '1' (9 pixels wide)
 	0x00, 0x00, //          
 	0x00, 0x00, //          
 	0x18, 0x00, //    ##    
@@ -295,7 +295,7 @@ const uint8_t menlo_10ptBitmaps[] =
 	0x00, 0x00, //          
 	0x00, 0x00, //          
 
-	/* @504 '2' (9 pixels wide) */
+	// @504 '2' (9 pixels wide)
 	0x00, 0x00, //          
 	0x00, 0x00, //          
 	0x3E, 0x00, //   #####  
@@ -311,7 +311,7 @@ const uint8_t menlo_10ptBitmaps[] =
 	0x00, 0x00, //          
 	0x00, 0x00, //          
 
-	/* @532 '3' (9 pixels wide) */
+	// @532 '3' (9 pixels wide)
 	0x00, 0x00, //          
 	0x00, 0x00, //          
 	0x3E, 0x00, //   #####  
@@ -327,7 +327,7 @@ const uint8_t menlo_10ptBitmaps[] =
 	0x00, 0x00, //          
 	0x00, 0x00, //          
 
-	/* @560 '4' (9 pixels wide) */
+	// @560 '4' (9 pixels wide)
 	0x00, 0x00, //          
 	0x00, 0x00, //          
 	0x06, 0x00, //      ##  
@@ -343,7 +343,7 @@ const uint8_t menlo_10ptBitmaps[] =
 	0x00, 0x00, //          
 	0x00, 0x00, //          
 
-	/* @588 '5' (9 pixels wide) */
+	// @588 '5' (9 pixels wide)
 	0x00, 0x00, //          
 	0x00, 0x00, //          
 	0x7E, 0x00, //  ######  
@@ -359,7 +359,7 @@ const uint8_t menlo_10ptBitmaps[] =
 	0x00, 0x00, //          
 	0x00, 0x00, //          
 
-	/* @616 '6' (9 pixels wide) */
+	// @616 '6' (9 pixels wide)
 	0x00, 0x00, //          
 	0x00, 0x00, //          
 	0x1E, 0x00, //    ####  
@@ -375,7 +375,7 @@ const uint8_t menlo_10ptBitmaps[] =
 	0x00, 0x00, //          
 	0x00, 0x00, //          
 
-	/* @644 '7' (9 pixels wide) */
+	// @644 '7' (9 pixels wide)
 	0x00, 0x00, //          
 	0x00, 0x00, //          
 	0x7F, 0x00, //  ####### 
@@ -391,7 +391,7 @@ const uint8_t menlo_10ptBitmaps[] =
 	0x00, 0x00, //          
 	0x00, 0x00, //          
 
-	/* @672 '8' (9 pixels wide) */
+	// @672 '8' (9 pixels wide)
 	0x00, 0x00, //          
 	0x00, 0x00, //          
 	0x3E, 0x00, //   #####  
@@ -407,7 +407,7 @@ const uint8_t menlo_10ptBitmaps[] =
 	0x00, 0x00, //          
 	0x00, 0x00, //          
 
-	/* @700 '9' (9 pixels wide) */
+	// @700 '9' (9 pixels wide)
 	0x00, 0x00, //          
 	0x00, 0x00, //          
 	0x3C, 0x00, //   ####   
@@ -423,7 +423,7 @@ const uint8_t menlo_10ptBitmaps[] =
 	0x00, 0x00, //          
 	0x00, 0x00, //          
 
-	/* @728 ':' (9 pixels wide) */
+	// @728 ':' (9 pixels wide)
 	0x00, 0x00, //          
 	0x00, 0x00, //          
 	0x00, 0x00, //          
@@ -439,7 +439,7 @@ const uint8_t menlo_10ptBitmaps[] =
 	0x00, 0x00, //          
 	0x00, 0x00, //          
 
-	/* @756 ';' (9 pixels wide) */
+	// @756 ';' (9 pixels wide)
 	0x00, 0x00, //          
 	0x00, 0x00, //          
 	0x00, 0x00, //          
@@ -455,7 +455,7 @@ const uint8_t menlo_10ptBitmaps[] =
 	0x30, 0x00, //   ##     
 	0x00, 0x00, //          
 
-	/* @784 '<' (9 pixels wide) */
+	// @784 '<' (9 pixels wide)
 	0x00, 0x00, //          
 	0x00, 0x00, //          
 	0x00, 0x00, //          
@@ -471,7 +471,7 @@ const uint8_t menlo_10ptBitmaps[] =
 	0x00, 0x00, //          
 	0x00, 0x00, //          
 
-	/* @812 '=' (9 pixels wide) */
+	// @812 '=' (9 pixels wide)
 	0x00, 0x00, //          
 	0x00, 0x00, //          
 	0x00, 0x00, //          
@@ -487,7 +487,7 @@ const uint8_t menlo_10ptBitmaps[] =
 	0x00, 0x00, //          
 	0x00, 0x00, //          
 
-	/* @840 '>' (9 pixels wide) */
+	// @840 '>' (9 pixels wide)
 	0x00, 0x00, //          
 	0x00, 0x00, //          
 	0x00, 0x00, //          
@@ -503,7 +503,7 @@ const uint8_t menlo_10ptBitmaps[] =
 	0x00, 0x00, //          
 	0x00, 0x00, //          
 
-	/* @868 '?' (9 pixels wide) */
+	// @868 '?' (9 pixels wide)
 	0x00, 0x00, //          
 	0x00, 0x00, //          
 	0x38, 0x00, //   ###    
@@ -519,7 +519,7 @@ const uint8_t menlo_10ptBitmaps[] =
 	0x00, 0x00, //          
 	0x00, 0x00, //          
 
-	/* @896 '@' (9 pixels wide) */
+	// @896 '@' (9 pixels wide)
 	0x00, 0x00, //          
 	0x00, 0x00, //          
 	0x1E, 0x00, //    ####  
@@ -535,7 +535,7 @@ const uint8_t menlo_10ptBitmaps[] =
 	0x3E, 0x00, //   #####  
 	0x00, 0x00, //          
 
-	/* @924 'A' (9 pixels wide) */
+	// @924 'A' (9 pixels wide)
 	0x00, 0x00, //          
 	0x00, 0x00, //          
 	0x08, 0x00, //     #    
@@ -551,7 +551,7 @@ const uint8_t menlo_10ptBitmaps[] =
 	0x00, 0x00, //          
 	0x00, 0x00, //          
 
-	/* @952 'B' (9 pixels wide) */
+	// @952 'B' (9 pixels wide)
 	0x00, 0x00, //          
 	0x00, 0x00, //          
 	0x7C, 0x00, //  #####   
@@ -567,7 +567,7 @@ const uint8_t menlo_10ptBitmaps[] =
 	0x00, 0x00, //          
 	0x00, 0x00, //          
 
-	/* @980 'C' (9 pixels wide) */
+	// @980 'C' (9 pixels wide)
 	0x00, 0x00, //          
 	0x00, 0x00, //          
 	0x1E, 0x00, //    ####  
@@ -583,7 +583,7 @@ const uint8_t menlo_10ptBitmaps[] =
 	0x00, 0x00, //          
 	0x00, 0x00, //          
 
-	/* @1008 'D' (9 pixels wide) */
+	// @1008 'D' (9 pixels wide)
 	0x00, 0x00, //          
 	0x00, 0x00, //          
 	0x7C, 0x00, //  #####   
@@ -599,7 +599,7 @@ const uint8_t menlo_10ptBitmaps[] =
 	0x00, 0x00, //          
 	0x00, 0x00, //          
 
-	/* @1036 'E' (9 pixels wide) */
+	// @1036 'E' (9 pixels wide)
 	0x00, 0x00, //          
 	0x00, 0x00, //          
 	0x7C, 0x00, //  #####   
@@ -615,7 +615,7 @@ const uint8_t menlo_10ptBitmaps[] =
 	0x00, 0x00, //          
 	0x00, 0x00, //          
 
-	/* @1064 'F' (9 pixels wide) */
+	// @1064 'F' (9 pixels wide)
 	0x00, 0x00, //          
 	0x00, 0x00, //          
 	0x3E, 0x00, //   #####  
@@ -631,7 +631,7 @@ const uint8_t menlo_10ptBitmaps[] =
 	0x00, 0x00, //          
 	0x00, 0x00, //          
 
-	/* @1092 'G' (9 pixels wide) */
+	// @1092 'G' (9 pixels wide)
 	0x00, 0x00, //          
 	0x00, 0x00, //          
 	0x1E, 0x00, //    ####  
@@ -647,7 +647,7 @@ const uint8_t menlo_10ptBitmaps[] =
 	0x00, 0x00, //          
 	0x00, 0x00, //          
 
-	/* @1120 'H' (9 pixels wide) */
+	// @1120 'H' (9 pixels wide)
 	0x00, 0x00, //          
 	0x00, 0x00, //          
 	0x42, 0x00, //  #    #  
@@ -663,7 +663,7 @@ const uint8_t menlo_10ptBitmaps[] =
 	0x00, 0x00, //          
 	0x00, 0x00, //          
 
-	/* @1148 'I' (9 pixels wide) */
+	// @1148 'I' (9 pixels wide)
 	0x00, 0x00, //          
 	0x00, 0x00, //          
 	0x7C, 0x00, //  #####   
@@ -679,7 +679,7 @@ const uint8_t menlo_10ptBitmaps[] =
 	0x00, 0x00, //          
 	0x00, 0x00, //          
 
-	/* @1176 'J' (9 pixels wide) */
+	// @1176 'J' (9 pixels wide)
 	0x00, 0x00, //          
 	0x00, 0x00, //          
 	0x1C, 0x00, //    ###   
@@ -695,7 +695,7 @@ const uint8_t menlo_10ptBitmaps[] =
 	0x00, 0x00, //          
 	0x00, 0x00, //          
 
-	/* @1204 'K' (9 pixels wide) */
+	// @1204 'K' (9 pixels wide)
 	0x00, 0x00, //          
 	0x00, 0x00, //          
 	0x42, 0x00, //  #    #  
@@ -711,7 +711,7 @@ const uint8_t menlo_10ptBitmaps[] =
 	0x00, 0x00, //          
 	0x00, 0x00, //          
 
-	/* @1232 'L' (9 pixels wide) */
+	// @1232 'L' (9 pixels wide)
 	0x00, 0x00, //          
 	0x00, 0x00, //          
 	0x40, 0x00, //  #       
@@ -727,7 +727,7 @@ const uint8_t menlo_10ptBitmaps[] =
 	0x00, 0x00, //          
 	0x00, 0x00, //          
 
-	/* @1260 'M' (9 pixels wide) */
+	// @1260 'M' (9 pixels wide)
 	0x00, 0x00, //          
 	0x00, 0x00, //          
 	0xC6, 0x00, // ##   ##  
@@ -743,7 +743,7 @@ const uint8_t menlo_10ptBitmaps[] =
 	0x00, 0x00, //          
 	0x00, 0x00, //          
 
-	/* @1288 'N' (9 pixels wide) */
+	// @1288 'N' (9 pixels wide)
 	0x00, 0x00, //          
 	0x00, 0x00, //          
 	0xC2, 0x00, // ##    #  
@@ -759,7 +759,7 @@ const uint8_t menlo_10ptBitmaps[] =
 	0x00, 0x00, //          
 	0x00, 0x00, //          
 
-	/* @1316 'O' (9 pixels wide) */
+	// @1316 'O' (9 pixels wide)
 	0x00, 0x00, //          
 	0x00, 0x00, //          
 	0x1C, 0x00, //    ###   
@@ -775,7 +775,7 @@ const uint8_t menlo_10ptBitmaps[] =
 	0x00, 0x00, //          
 	0x00, 0x00, //          
 
-	/* @1344 'P' (9 pixels wide) */
+	// @1344 'P' (9 pixels wide)
 	0x00, 0x00, //          
 	0x00, 0x00, //          
 	0x7E, 0x00, //  ######  
@@ -791,7 +791,7 @@ const uint8_t menlo_10ptBitmaps[] =
 	0x00, 0x00, //          
 	0x00, 0x00, //          
 
-	/* @1372 'Q' (9 pixels wide) */
+	// @1372 'Q' (9 pixels wide)
 	0x00, 0x00, //          
 	0x00, 0x00, //          
 	0x1C, 0x00, //    ###   
@@ -807,7 +807,7 @@ const uint8_t menlo_10ptBitmaps[] =
 	0x02, 0x00, //       #  
 	0x00, 0x00, //          
 
-	/* @1400 'R' (9 pixels wide) */
+	// @1400 'R' (9 pixels wide)
 	0x00, 0x00, //          
 	0x00, 0x00, //          
 	0x7E, 0x00, //  ######  
@@ -823,7 +823,7 @@ const uint8_t menlo_10ptBitmaps[] =
 	0x00, 0x00, //          
 	0x00, 0x00, //          
 
-	/* @1428 'S' (9 pixels wide) */
+	// @1428 'S' (9 pixels wide)
 	0x00, 0x00, //          
 	0x00, 0x00, //          
 	0x3E, 0x00, //   #####  
@@ -839,7 +839,7 @@ const uint8_t menlo_10ptBitmaps[] =
 	0x00, 0x00, //          
 	0x00, 0x00, //          
 
-	/* @1456 'T' (9 pixels wide) */
+	// @1456 'T' (9 pixels wide)
 	0x00, 0x00, //          
 	0x00, 0x00, //          
 	0xFE, 0x00, // #######  
@@ -855,7 +855,7 @@ const uint8_t menlo_10ptBitmaps[] =
 	0x00, 0x00, //          
 	0x00, 0x00, //          
 
-	/* @1484 'U' (9 pixels wide) */
+	// @1484 'U' (9 pixels wide)
 	0x00, 0x00, //          
 	0x00, 0x00, //          
 	0x41, 0x00, //  #     # 
@@ -871,7 +871,7 @@ const uint8_t menlo_10ptBitmaps[] =
 	0x00, 0x00, //          
 	0x00, 0x00, //          
 
-	/* @1512 'V' (9 pixels wide) */
+	// @1512 'V' (9 pixels wide)
 	0x00, 0x00, //          
 	0x00, 0x00, //          
 	0x41, 0x00, //  #     # 
@@ -887,7 +887,7 @@ const uint8_t menlo_10ptBitmaps[] =
 	0x00, 0x00, //          
 	0x00, 0x00, //          
 
-	/* @1540 'W' (9 pixels wide) */
+	// @1540 'W' (9 pixels wide)
 	0x00, 0x00, //          
 	0x00, 0x00, //          
 	0x81, 0x00, // #      # 
@@ -903,7 +903,7 @@ const uint8_t menlo_10ptBitmaps[] =
 	0x00, 0x00, //          
 	0x00, 0x00, //          
 
-	/* @1568 'X' (9 pixels wide) */
+	// @1568 'X' (9 pixels wide)
 	0x00, 0x00, //          
 	0x00, 0x00, //          
 	0x43, 0x00, //  #    ## 
@@ -919,7 +919,7 @@ const uint8_t menlo_10ptBitmaps[] =
 	0x00, 0x00, //          
 	0x00, 0x00, //          
 
-	/* @1596 'Y' (9 pixels wide) */
+	// @1596 'Y' (9 pixels wide)
 	0x00, 0x00, //          
 	0x00, 0x00, //          
 	0x82, 0x00, // #     #  
@@ -935,7 +935,7 @@ const uint8_t menlo_10ptBitmaps[] =
 	0x00, 0x00, //          
 	0x00, 0x00, //          
 
-	/* @1624 'Z' (9 pixels wide) */
+	// @1624 'Z' (9 pixels wide)
 	0x00, 0x00, //          
 	0x00, 0x00, //          
 	0x7F, 0x00, //  ####### 
@@ -951,7 +951,7 @@ const uint8_t menlo_10ptBitmaps[] =
 	0x00, 0x00, //          
 	0x00, 0x00, //          
 
-	/* @1652 '[' (9 pixels wide) */
+	// @1652 '[' (9 pixels wide)
 	0x00, 0x00, //          
 	0x00, 0x00, //          
 	0x0E, 0x00, //     ###  
@@ -967,7 +967,7 @@ const uint8_t menlo_10ptBitmaps[] =
 	0x0E, 0x00, //     ###  
 	0x00, 0x00, //          
 
-	/* @1680 '\' (9 pixels wide) */
+	// @1680 '\' (9 pixels wide)
 	0x00, 0x00, //          
 	0x00, 0x00, //          
 	0x40, 0x00, //  #       
@@ -983,7 +983,7 @@ const uint8_t menlo_10ptBitmaps[] =
 	0x02, 0x00, //       #  
 	0x00, 0x00, //          
 
-	/* @1708 ']' (9 pixels wide) */
+	// @1708 ']' (9 pixels wide)
 	0x00, 0x00, //          
 	0x00, 0x00, //          
 	0x38, 0x00, //   ###    
@@ -999,7 +999,7 @@ const uint8_t menlo_10ptBitmaps[] =
 	0x38, 0x00, //   ###    
 	0x00, 0x00, //          
 
-	/* @1736 '^' (9 pixels wide) */
+	// @1736 '^' (9 pixels wide)
 	0x00, 0x00, //          
 	0x00, 0x00, //          
 	0x18, 0x00, //    ##    
@@ -1015,7 +1015,7 @@ const uint8_t menlo_10ptBitmaps[] =
 	0x00, 0x00, //          
 	0x00, 0x00, //          
 
-	/* @1764 '_' (9 pixels wide) */
+	// @1764 '_' (9 pixels wide)
 	0x00, 0x00, //          
 	0x00, 0x00, //          
 	0x00, 0x00, //          
@@ -1031,7 +1031,7 @@ const uint8_t menlo_10ptBitmaps[] =
 	0xFF, 0x00, // ######## 
 	0x00, 0x00, //          
 
-	/* @1792 '`' (9 pixels wide) */
+	// @1792 '`' (9 pixels wide)
 	0x00, 0x00, //          
 	0x10, 0x00, //    #     
 	0x08, 0x00, //     #    
@@ -1047,7 +1047,7 @@ const uint8_t menlo_10ptBitmaps[] =
 	0x00, 0x00, //          
 	0x00, 0x00, //          
 
-	/* @1820 'a' (9 pixels wide) */
+	// @1820 'a' (9 pixels wide)
 	0x00, 0x00, //          
 	0x00, 0x00, //          
 	0x00, 0x00, //          
@@ -1063,7 +1063,7 @@ const uint8_t menlo_10ptBitmaps[] =
 	0x00, 0x00, //          
 	0x00, 0x00, //          
 
-	/* @1848 'b' (9 pixels wide) */
+	// @1848 'b' (9 pixels wide)
 	0x40, 0x00, //  #       
 	0x40, 0x00, //  #       
 	0x40, 0x00, //  #       
@@ -1079,7 +1079,7 @@ const uint8_t menlo_10ptBitmaps[] =
 	0x00, 0x00, //          
 	0x00, 0x00, //          
 
-	/* @1876 'c' (9 pixels wide) */
+	// @1876 'c' (9 pixels wide)
 	0x00, 0x00, //          
 	0x00, 0x00, //          
 	0x00, 0x00, //          
@@ -1095,7 +1095,7 @@ const uint8_t menlo_10ptBitmaps[] =
 	0x00, 0x00, //          
 	0x00, 0x00, //          
 
-	/* @1904 'd' (9 pixels wide) */
+	// @1904 'd' (9 pixels wide)
 	0x02, 0x00, //       #  
 	0x02, 0x00, //       #  
 	0x02, 0x00, //       #  
@@ -1111,7 +1111,7 @@ const uint8_t menlo_10ptBitmaps[] =
 	0x00, 0x00, //          
 	0x00, 0x00, //          
 
-	/* @1932 'e' (9 pixels wide) */
+	// @1932 'e' (9 pixels wide)
 	0x00, 0x00, //          
 	0x00, 0x00, //          
 	0x00, 0x00, //          
@@ -1127,7 +1127,7 @@ const uint8_t menlo_10ptBitmaps[] =
 	0x00, 0x00, //          
 	0x00, 0x00, //          
 
-	/* @1960 'f' (9 pixels wide) */
+	// @1960 'f' (9 pixels wide)
 	0x0C, 0x00, //     ##   
 	0x10, 0x00, //    #     
 	0x10, 0x00, //    #     
@@ -1143,7 +1143,7 @@ const uint8_t menlo_10ptBitmaps[] =
 	0x00, 0x00, //          
 	0x00, 0x00, //          
 
-	/* @1988 'g' (9 pixels wide) */
+	// @1988 'g' (9 pixels wide)
 	0x00, 0x00, //          
 	0x00, 0x00, //          
 	0x00, 0x00, //          
@@ -1159,7 +1159,7 @@ const uint8_t menlo_10ptBitmaps[] =
 	0x22, 0x00, //   #   #  
 	0x1C, 0x00, //    ###   
 
-	/* @2016 'h' (9 pixels wide) */
+	// @2016 'h' (9 pixels wide)
 	0x40, 0x00, //  #       
 	0x40, 0x00, //  #       
 	0x40, 0x00, //  #       
@@ -1175,7 +1175,7 @@ const uint8_t menlo_10ptBitmaps[] =
 	0x00, 0x00, //          
 	0x00, 0x00, //          
 
-	/* @2044 'i' (9 pixels wide) */
+	// @2044 'i' (9 pixels wide)
 	0x00, 0x00, //          
 	0x08, 0x00, //     #    
 	0x00, 0x00, //          
@@ -1191,7 +1191,7 @@ const uint8_t menlo_10ptBitmaps[] =
 	0x00, 0x00, //          
 	0x00, 0x00, //          
 
-	/* @2072 'j' (9 pixels wide) */
+	// @2072 'j' (9 pixels wide)
 	0x08, 0x00, //     #    
 	0x00, 0x00, //          
 	0x00, 0x00, //          
@@ -1207,7 +1207,7 @@ const uint8_t menlo_10ptBitmaps[] =
 	0x08, 0x00, //     #    
 	0x70, 0x00, //  ###     
 
-	/* @2100 'k' (9 pixels wide) */
+	// @2100 'k' (9 pixels wide)
 	0x40, 0x00, //  #       
 	0x40, 0x00, //  #       
 	0x40, 0x00, //  #       
@@ -1223,7 +1223,7 @@ const uint8_t menlo_10ptBitmaps[] =
 	0x00, 0x00, //          
 	0x00, 0x00, //          
 
-	/* @2128 'l' (9 pixels wide) */
+	// @2128 'l' (9 pixels wide)
 	0x00, 0x00, //          
 	0x38, 0x00, //   ###    
 	0x08, 0x00, //     #    
@@ -1239,7 +1239,7 @@ const uint8_t menlo_10ptBitmaps[] =
 	0x00, 0x00, //          
 	0x00, 0x00, //          
 
-	/* @2156 'm' (9 pixels wide) */
+	// @2156 'm' (9 pixels wide)
 	0x00, 0x00, //          
 	0x00, 0x00, //          
 	0x00, 0x00, //          
@@ -1255,7 +1255,7 @@ const uint8_t menlo_10ptBitmaps[] =
 	0x00, 0x00, //          
 	0x00, 0x00, //          
 
-	/* @2184 'n' (9 pixels wide) */
+	// @2184 'n' (9 pixels wide)
 	0x00, 0x00, //          
 	0x00, 0x00, //          
 	0x00, 0x00, //          
@@ -1271,7 +1271,7 @@ const uint8_t menlo_10ptBitmaps[] =
 	0x00, 0x00, //          
 	0x00, 0x00, //          
 
-	/* @2212 'o' (9 pixels wide) */
+	// @2212 'o' (9 pixels wide)
 	0x00, 0x00, //          
 	0x00, 0x00, //          
 	0x00, 0x00, //          
@@ -1287,7 +1287,7 @@ const uint8_t menlo_10ptBitmaps[] =
 	0x00, 0x00, //          
 	0x00, 0x00, //          
 
-	/* @2240 'p' (9 pixels wide) */
+	// @2240 'p' (9 pixels wide)
 	0x00, 0x00, //          
 	0x00, 0x00, //          
 	0x00, 0x00, //          
@@ -1303,7 +1303,7 @@ const uint8_t menlo_10ptBitmaps[] =
 	0x40, 0x00, //  #       
 	0x40, 0x00, //  #       
 
-	/* @2268 'q' (9 pixels wide) */
+	// @2268 'q' (9 pixels wide)
 	0x00, 0x00, //          
 	0x00, 0x00, //          
 	0x00, 0x00, //          
@@ -1319,7 +1319,7 @@ const uint8_t menlo_10ptBitmaps[] =
 	0x02, 0x00, //       #  
 	0x02, 0x00, //       #  
 
-	/* @2296 'r' (9 pixels wide) */
+	// @2296 'r' (9 pixels wide)
 	0x00, 0x00, //          
 	0x00, 0x00, //          
 	0x00, 0x00, //          
@@ -1335,7 +1335,7 @@ const uint8_t menlo_10ptBitmaps[] =
 	0x00, 0x00, //          
 	0x00, 0x00, //          
 
-	/* @2324 's' (9 pixels wide) */
+	// @2324 's' (9 pixels wide)
 	0x00, 0x00, //          
 	0x00, 0x00, //          
 	0x00, 0x00, //          
@@ -1351,7 +1351,7 @@ const uint8_t menlo_10ptBitmaps[] =
 	0x00, 0x00, //          
 	0x00, 0x00, //          
 
-	/* @2352 't' (9 pixels wide) */
+	// @2352 't' (9 pixels wide)
 	0x00, 0x00, //          
 	0x00, 0x00, //          
 	0x10, 0x00, //    #     
@@ -1367,7 +1367,7 @@ const uint8_t menlo_10ptBitmaps[] =
 	0x00, 0x00, //          
 	0x00, 0x00, //          
 
-	/* @2380 'u' (9 pixels wide) */
+	// @2380 'u' (9 pixels wide)
 	0x00, 0x00, //          
 	0x00, 0x00, //          
 	0x00, 0x00, //          
@@ -1383,7 +1383,7 @@ const uint8_t menlo_10ptBitmaps[] =
 	0x00, 0x00, //          
 	0x00, 0x00, //          
 
-	/* @2408 'v' (9 pixels wide) */
+	// @2408 'v' (9 pixels wide)
 	0x00, 0x00, //          
 	0x00, 0x00, //          
 	0x00, 0x00, //          
@@ -1399,7 +1399,7 @@ const uint8_t menlo_10ptBitmaps[] =
 	0x00, 0x00, //          
 	0x00, 0x00, //          
 
-	/* @2436 'w' (9 pixels wide) */
+	// @2436 'w' (9 pixels wide)
 	0x00, 0x00, //          
 	0x00, 0x00, //          
 	0x00, 0x00, //          
@@ -1415,7 +1415,7 @@ const uint8_t menlo_10ptBitmaps[] =
 	0x00, 0x00, //          
 	0x00, 0x00, //          
 
-	/* @2464 'x' (9 pixels wide) */
+	// @2464 'x' (9 pixels wide)
 	0x00, 0x00, //          
 	0x00, 0x00, //          
 	0x00, 0x00, //          
@@ -1431,7 +1431,7 @@ const uint8_t menlo_10ptBitmaps[] =
 	0x00, 0x00, //          
 	0x00, 0x00, //          
 
-	/* @2492 'y' (9 pixels wide) */
+	// @2492 'y' (9 pixels wide)
 	0x00, 0x00, //          
 	0x00, 0x00, //          
 	0x00, 0x00, //          
@@ -1447,7 +1447,7 @@ const uint8_t menlo_10ptBitmaps[] =
 	0x10, 0x00, //    #     
 	0x30, 0x00, //   ##     
 
-	/* @2520 'z' (9 pixels wide) */
+	// @2520 'z' (9 pixels wide)
 	0x00, 0x00, //          
 	0x00, 0x00, //          
 	0x00, 0x00, //          
@@ -1463,7 +1463,7 @@ const uint8_t menlo_10ptBitmaps[] =
 	0x00, 0x00, //          
 	0x00, 0x00, //          
 
-	/* @2548 '{' (9 pixels wide) */
+	// @2548 '{' (9 pixels wide)
 	0x00, 0x00, //          
 	0x0C, 0x00, //     ##   
 	0x18, 0x00, //    ##    
@@ -1479,7 +1479,7 @@ const uint8_t menlo_10ptBitmaps[] =
 	0x18, 0x00, //    ##    
 	0x0C, 0x00, //     ##   
 
-	/* @2576 '|' (9 pixels wide) */
+	// @2576 '|' (9 pixels wide)
 	0x00, 0x00, //          
 	0x08, 0x00, //     #    
 	0x08, 0x00, //     #    
@@ -1495,7 +1495,7 @@ const uint8_t menlo_10ptBitmaps[] =
 	0x08, 0x00, //     #    
 	0x08, 0x00, //     #    
 
-	/* @2604 '}' (9 pixels wide) */
+	// @2604 '}' (9 pixels wide)
 	0x00, 0x00, //          
 	0x70, 0x00, //  ###     
 	0x10, 0x00, //    #     
@@ -1511,7 +1511,7 @@ const uint8_t menlo_10ptBitmaps[] =
 	0x10, 0x00, //    #     
 	0x70, 0x00, //  ###     
 
-	/* @2632 '~' (9 pixels wide) */
+	// @2632 '~' (9 pixels wide)
 	0x00, 0x00, //          
 	0x00, 0x00, //          
 	0x00, 0x00, //          
@@ -1528,105 +1528,112 @@ const uint8_t menlo_10ptBitmaps[] =
 	0x00, 0x00, //          
 };
 
-/* Character descriptors for Menlo 10pt */
-/* { [Char width in bits], [Char height in bits], [Offset into menlo_10ptCharBitmaps in bytes] } */
-const uint16_t menlo_10ptDescriptors[][3] = 
+// Character descriptors for Menlo 10pt
+// { [Char width in bytes], [Char height in bits], [Offset into menlo_10ptCharBitmaps in bytes] }
+const uint16_t menlo_10ptDescriptors[] = 
 {
-	{9, 14, 0}, 		/*   */ 
-	{9, 14, 28}, 		/* ! */ 
-	{9, 14, 56}, 		/* " */ 
-	{9, 14, 84}, 		/* # */ 
-	{9, 14, 112}, 		/* $ */ 
-	{9, 14, 140}, 		/* % */ 
-	{9, 14, 168}, 		/* & */ 
-	{9, 14, 196}, 		/* ' */ 
-	{9, 14, 224}, 		/* ( */ 
-	{9, 14, 252}, 		/* ) */ 
-	{9, 14, 280}, 		/* * */ 
-	{9, 14, 308}, 		/* + */ 
-	{9, 14, 336}, 		/* , */ 
-	{9, 14, 364}, 		/* - */ 
-	{9, 14, 392}, 		/* . */ 
-	{9, 14, 420}, 		/* / */ 
-	{9, 14, 448}, 		/* 0 */ 
-	{9, 14, 476}, 		/* 1 */ 
-	{9, 14, 504}, 		/* 2 */ 
-	{9, 14, 532}, 		/* 3 */ 
-	{9, 14, 560}, 		/* 4 */ 
-	{9, 14, 588}, 		/* 5 */ 
-	{9, 14, 616}, 		/* 6 */ 
-	{9, 14, 644}, 		/* 7 */ 
-	{9, 14, 672}, 		/* 8 */ 
-	{9, 14, 700}, 		/* 9 */ 
-	{9, 14, 728}, 		/* : */ 
-	{9, 14, 756}, 		/* ; */ 
-	{9, 14, 784}, 		/* < */ 
-	{9, 14, 812}, 		/* = */ 
-	{9, 14, 840}, 		/* > */ 
-	{9, 14, 868}, 		/* ? */ 
-	{9, 14, 896}, 		/* @ */ 
-	{9, 14, 924}, 		/* A */ 
-	{9, 14, 952}, 		/* B */ 
-	{9, 14, 980}, 		/* C */ 
-	{9, 14, 1008}, 		/* D */ 
-	{9, 14, 1036}, 		/* E */ 
-	{9, 14, 1064}, 		/* F */ 
-	{9, 14, 1092}, 		/* G */ 
-	{9, 14, 1120}, 		/* H */ 
-	{9, 14, 1148}, 		/* I */ 
-	{9, 14, 1176}, 		/* J */ 
-	{9, 14, 1204}, 		/* K */ 
-	{9, 14, 1232}, 		/* L */ 
-	{9, 14, 1260}, 		/* M */ 
-	{9, 14, 1288}, 		/* N */ 
-	{9, 14, 1316}, 		/* O */ 
-	{9, 14, 1344}, 		/* P */ 
-	{9, 14, 1372}, 		/* Q */ 
-	{9, 14, 1400}, 		/* R */ 
-	{9, 14, 1428}, 		/* S */ 
-	{9, 14, 1456}, 		/* T */ 
-	{9, 14, 1484}, 		/* U */ 
-	{9, 14, 1512}, 		/* V */ 
-	{9, 14, 1540}, 		/* W */ 
-	{9, 14, 1568}, 		/* X */ 
-	{9, 14, 1596}, 		/* Y */ 
-	{9, 14, 1624}, 		/* Z */ 
-	{9, 14, 1652}, 		/* [ */ 
-	{9, 14, 1680}, 		/* \ */ 
-	{9, 14, 1708}, 		/* ] */ 
-	{9, 14, 1736}, 		/* ^ */ 
-	{9, 14, 1764}, 		/* _ */ 
-	{9, 14, 1792}, 		/* ` */ 
-	{9, 14, 1820}, 		/* a */ 
-	{9, 14, 1848}, 		/* b */ 
-	{9, 14, 1876}, 		/* c */ 
-	{9, 14, 1904}, 		/* d */ 
-	{9, 14, 1932}, 		/* e */ 
-	{9, 14, 1960}, 		/* f */ 
-	{9, 14, 1988}, 		/* g */ 
-	{9, 14, 2016}, 		/* h */ 
-	{9, 14, 2044}, 		/* i */ 
-	{9, 14, 2072}, 		/* j */ 
-	{9, 14, 2100}, 		/* k */ 
-	{9, 14, 2128}, 		/* l */ 
-	{9, 14, 2156}, 		/* m */ 
-	{9, 14, 2184}, 		/* n */ 
-	{9, 14, 2212}, 		/* o */ 
-	{9, 14, 2240}, 		/* p */ 
-	{9, 14, 2268}, 		/* q */ 
-	{9, 14, 2296}, 		/* r */ 
-	{9, 14, 2324}, 		/* s */ 
-	{9, 14, 2352}, 		/* t */ 
-	{9, 14, 2380}, 		/* u */ 
-	{9, 14, 2408}, 		/* v */ 
-	{9, 14, 2436}, 		/* w */ 
-	{9, 14, 2464}, 		/* x */ 
-	{9, 14, 2492}, 		/* y */ 
-	{9, 14, 2520}, 		/* z */ 
-	{9, 14, 2548}, 		/* { */ 
-	{9, 14, 2576}, 		/* | */ 
-	{9, 14, 2604}, 		/* } */ 
-	{9, 14, 2632}, 		/* ~ */ 
+	{2, 14, 0}, 		//   
+	{2, 14, 28}, 		// ! 
+	{2, 14, 56}, 		// " 
+	{2, 14, 84}, 		// # 
+	{2, 14, 112}, 		// $ 
+	{2, 14, 140}, 		// % 
+	{2, 14, 168}, 		// & 
+	{2, 14, 196}, 		// ' 
+	{2, 14, 224}, 		// ( 
+	{2, 14, 252}, 		// ) 
+	{2, 14, 280}, 		// * 
+	{2, 14, 308}, 		// + 
+	{2, 14, 336}, 		// , 
+	{2, 14, 364}, 		// - 
+	{2, 14, 392}, 		// . 
+	{2, 14, 420}, 		// / 
+	{2, 14, 448}, 		// 0 
+	{2, 14, 476}, 		// 1 
+	{2, 14, 504}, 		// 2 
+	{2, 14, 532}, 		// 3 
+	{2, 14, 560}, 		// 4 
+	{2, 14, 588}, 		// 5 
+	{2, 14, 616}, 		// 6 
+	{2, 14, 644}, 		// 7 
+	{2, 14, 672}, 		// 8 
+	{2, 14, 700}, 		// 9 
+	{2, 14, 728}, 		// : 
+	{2, 14, 756}, 		// ; 
+	{2, 14, 784}, 		// < 
+	{2, 14, 812}, 		// = 
+	{2, 14, 840}, 		// > 
+	{2, 14, 868}, 		// ? 
+	{2, 14, 896}, 		// @ 
+	{2, 14, 924}, 		// A 
+	{2, 14, 952}, 		// B 
+	{2, 14, 980}, 		// C 
+	{2, 14, 1008}, 		// D 
+	{2, 14, 1036}, 		// E 
+	{2, 14, 1064}, 		// F 
+	{2, 14, 1092}, 		// G 
+	{2, 14, 1120}, 		// H 
+	{2, 14, 1148}, 		// I 
+	{2, 14, 1176}, 		// J 
+	{2, 14, 1204}, 		// K 
+	{2, 14, 1232}, 		// L 
+	{2, 14, 1260}, 		// M 
+	{2, 14, 1288}, 		// N 
+	{2, 14, 1316}, 		// O 
+	{2, 14, 1344}, 		// P 
+	{2, 14, 1372}, 		// Q 
+	{2, 14, 1400}, 		// R 
+	{2, 14, 1428}, 		// S 
+	{2, 14, 1456}, 		// T 
+	{2, 14, 1484}, 		// U 
+	{2, 14, 1512}, 		// V 
+	{2, 14, 1540}, 		// W 
+	{2, 14, 1568}, 		// X 
+	{2, 14, 1596}, 		// Y 
+	{2, 14, 1624}, 		// Z 
+	{2, 14, 1652}, 		// [ 
+	{2, 14, 1680}, 		// \ 
+	{2, 14, 1708}, 		// ] 
+	{2, 14, 1736}, 		// ^ 
+	{2, 14, 1764}, 		// _ 
+	{2, 14, 1792}, 		// ` 
+	{2, 14, 1820}, 		// a 
+	{2, 14, 1848}, 		// b 
+	{2, 14, 1876}, 		// c 
+	{2, 14, 1904}, 		// d 
+	{2, 14, 1932}, 		// e 
+	{2, 14, 1960}, 		// f 
+	{2, 14, 1988}, 		// g 
+	{2, 14, 2016}, 		// h 
+	{2, 14, 2044}, 		// i 
+	{2, 14, 2072}, 		// j 
+	{2, 14, 2100}, 		// k 
+	{2, 14, 2128}, 		// l 
+	{2, 14, 2156}, 		// m 
+	{2, 14, 2184}, 		// n 
+	{2, 14, 2212}, 		// o 
+	{2, 14, 2240}, 		// p 
+	{2, 14, 2268}, 		// q 
+	{2, 14, 2296}, 		// r 
+	{2, 14, 2324}, 		// s 
+	{2, 14, 2352}, 		// t 
+	{2, 14, 2380}, 		// u 
+	{2, 14, 2408}, 		// v 
+	{2, 14, 2436}, 		// w 
+	{2, 14, 2464}, 		// x 
+	{2, 14, 2492}, 		// y 
+	{2, 14, 2520}, 		// z 
+	{2, 14, 2548}, 		// { 
+	{2, 14, 2576}, 		// | 
+	{2, 14, 2604}, 		// } 
+	{2, 14, 2632}, 		// ~ 
 };
 
-
+// Font information for Menlo 10pt
+const FONT_INFO menlo_10ptFontInfo =
+{
+	' ', //  Start character
+	'~', //  End character
+	menlo_10ptDescriptors, //  Character descriptor array
+	menlo_10ptBitmaps, //  Character bitmap array
+};
