@@ -1530,7 +1530,7 @@ const uint8_t menlo_10ptBitmaps[] =
 
 // Character descriptors for Menlo 10pt
 // { [Char width in bytes], [Char height in bits], [Offset into menlo_10ptCharBitmaps in bytes] }
-const uint16_t menlo_10ptDescriptors[] = 
+const uint16_t menlo_10ptDescriptors[][3] =
 {
 	{2, 14, 0}, 		//   
 	{2, 14, 28}, 		// ! 

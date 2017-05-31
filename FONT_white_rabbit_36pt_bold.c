@@ -3715,7 +3715,7 @@ const uint8_t whiteRabbit_36ptBitmaps[] =
 
 // Character descriptors for White Rabbit 36pt
 // { [Char width in bytes], [Char height in bits], [Offset into whiteRabbit_36ptCharBitmaps in bytes] }
-const uint16_t whiteRabbit_36ptDescriptors[] = 
+const uint16_t whiteRabbit_36ptDescriptors[][3] =
 {
 	{3, 37, 0}, 		//   
 	{3, 37, 111}, 		// ! 

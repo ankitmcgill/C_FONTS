@@ -1435,7 +1435,7 @@ const uint8_t courierNew_10ptBitmaps[] =
 
 // Character descriptors for Courier New 10pt
 // { [Char width in bytes], [Char height in bits], [Offset into courierNew_10ptCharBitmaps in bytes] }
-const uint16_t courierNew_10ptDescriptors[] = 
+const uint16_t courierNew_10ptDescriptors[][3] =
 {
 	{2, 13, 0}, 		//   
 	{2, 13, 26}, 		// ! 
