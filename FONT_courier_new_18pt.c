@@ -5,7 +5,7 @@
 // 
 
 // Character bitmaps for Courier New 18pt
-const uint8_t courierNew_18ptBitmaps[] = 
+const uint8_t courierNew_18ptBitmaps[] =
 {
 	// @0 ' ' (14 pixels wide)
 	0x00, 0x00, //               
