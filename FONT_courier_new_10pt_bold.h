@@ -8,6 +8,7 @@
 	#include <osapi.h>
 #else
 	#include <stdint.h>
+	#include <stdlib.h>
 #endif
 
 // Font data for Courier New 12pt

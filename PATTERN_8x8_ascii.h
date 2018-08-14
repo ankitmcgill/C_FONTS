@@ -8,6 +8,7 @@
 	#include <osapi.h>
 #else
 	#include <stdint.h>
+	#include <stdlib.h>
 #endif
 
 // Pattern data
